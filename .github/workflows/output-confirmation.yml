@@ -19,7 +19,7 @@ jobs:
     - name: Build
       run: cargo build --verbose
     - name: confirmation
-      run: cargo run --release | tee output-file.txt | grep -iq "gf Hello, world!"
+      run: cargo run --release | tee output-file.txt | grep -iq "Hello, world!"
 
 
       
