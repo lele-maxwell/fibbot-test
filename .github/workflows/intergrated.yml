@@ -9,9 +9,9 @@ jobs:
       - name: Build and run action
         uses: ./
         with:
-          eneble_fib: 'false'
+          
           max_threshold: '258'
-        
+          eneble_fib: 'false'
       
         
        
