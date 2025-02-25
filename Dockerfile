@@ -1,10 +1,13 @@
-FROM rust:1.75
 
-WORKDIR /action
+FROM rust:latest
 
-COPY . .
 
-#RUN cargo build --release
-RUN cargo run 
+WORKDIR /app
 
-#ENTRYPOINT ["/action/target/release/fibbot-test"]
+
+COPY . /app
+
+
+RUN cargo build --release
+
+CMD ["./target/release/fibbot-test"]
