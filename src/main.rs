@@ -15,21 +15,21 @@ use std::env;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    if args.len() < 3 {
+    if args.len() < 2 {
         eprintln!("Usage: {} <enable_fib> <max_threshold>", args[0]);
         return;
     }
 
-    let enable_fib = &args[1];
-    let max_threshold = &args[2];
+    let enable_fib = &args[0];
+    let max_threshold = &args[1];
 
-    println!("enable_fib: {}", enable_fib);
-    println!("max_threshold: {}", max_threshold);
+    println!("\n enable_fib: {}", enable_fib);
+    println!("\n max_threshold: {}", max_threshold);
 
     if enable_fib == "true" {
         // Your Fibonacci logic here
-        println!("Fibonacci program is enabled with max threshold: {}", max_threshold);
+        println!("\n Fibonacci program is enabled with max threshold: {}", max_threshold);
     } else {
-        println!("Fibonacci program is disabled");
+        println!("\n Fibonacci program is disabled");
     }
 }
