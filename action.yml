@@ -1,0 +1,5 @@
+name: confirm hello world print 
+description: an action to confirm hello world printed on logs
+runs:
+   uses: "docker"
+   image: "Dockerfile"
