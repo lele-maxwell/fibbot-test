@@ -14,6 +14,9 @@ fn main() {
 use std::env;
 
 fn main() {
+
+    Println!("Hello world!");
+    
     let args: Vec<String> = env::args().collect();
     if args.len() < 3 {
         eprintln!("Usage: {} <enable_fib> <max_threshold>", args[1]);
