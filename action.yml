@@ -4,7 +4,7 @@ description: an action to confirm hello world printed on logs
 inputs:
   enable_fib:
     description: "variable verifies if fib-program is enabled or not"
-    required: false
+    required: true
     default: "true"
   max_threshold: 
     description: "provides the max fib value to be used for fib-program"
