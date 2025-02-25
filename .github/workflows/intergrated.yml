@@ -11,7 +11,7 @@ jobs:
         with:
           
           max_threshold: '258'
-          eneble_fib: 'true'
+          eneble_fib: true
       
         
        
