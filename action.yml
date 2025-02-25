@@ -5,7 +5,7 @@ inputs:
   enable_fib:
     description: "variable verifies if fib-program is enabled or not"
     required: true
-    default: "true"
+    default: true
   max_threshold: 
     description: "provides the max fib value to be used for fib-program"
     required: true
