@@ -7,7 +7,7 @@ inputs:
     required: false
     default: true
   max_threshold: 
-    description: "provides the max fib value to be used for fib-program"
+    description: "provides the max fib value to be used for fib-program" 
     required: true
     default: '10000'
 
