@@ -17,4 +17,6 @@ RUN ls -la /app
 RUN ls -la /app/target/release
 
 # Run the executable
-ENTRYPOINT ["/app/target/release/fibbot-test"]
+#ENTRYPOINT ["/app/target/release/fibbot-test"]
+CMD ["./app/target/release/fibbot-test", "$1", "$2"]
+ 
