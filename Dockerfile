@@ -5,6 +5,6 @@ WORKDIR /action
 COPY . .
 
 #RUN cargo build --release
-RUN carg run 
+RUN cargo run 
 
 #ENTRYPOINT ["/action/target/release/fibbot-test"]
