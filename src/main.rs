@@ -9,7 +9,7 @@ fn main() {
     println!( "\n enable_fib: {}  \n max_threshold: {} ", eneble_fib, max_threshold);
 }
 */
-mod pull_request;
+mod get_pr_contents;
 
 use pull_request::{fetch_all_pull_requests, verify_pull_request};
 use reqwest::Error;
