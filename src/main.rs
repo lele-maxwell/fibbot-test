@@ -9,9 +9,9 @@ fn main() {
     println!( "\n enable_fib: {}  \n max_threshold: {} ", eneble_fib, max_threshold);
 }
 */
-mod get_pr_contents;
+mod get_pr_content;
 
-use pull_request::{fetch_all_pull_requests, verify_pull_request};
+use get_pr_content::{fetch_all_pull_requests, verify_pull_request};
 use reqwest::Error;
 use std::env;
 use tokio::main;
